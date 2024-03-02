@@ -1,0 +1,21 @@
+[
+    {
+        "icon": "fa-solid fa-truck",
+        "title": "Fast Delivery",
+        "description": "All orders over $49 are free"
+        
+    },
+    {
+        "icon": "fa-solid fa-percent",
+        "title": "Action Discount",
+        "description": "Every month we have a new offer"
+        
+    },
+    {
+        "icon": "fa-solid fa-credit-card",
+        "title": "Purchase in Installments",
+        "description": "Deferred payment for 5 installments"
+        
+    }
+
+]

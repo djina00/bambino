@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "sorting": "By price: low to high" 
+    },
+    {
+        "id":2,
+        "sorting": "By price: high to low" 
+    },
+    {
+        "id":3,
+        "sorting": "By popularity" 
+    },
+    {
+        "id":4,
+        "sorting": "By name: ascending" 
+    },
+    {
+        "id":5,
+        "sorting": "By name: descending" 
+    }
+
+]

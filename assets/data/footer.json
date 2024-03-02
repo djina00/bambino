@@ -1,0 +1,35 @@
+{
+    "products":["Bodysuits", "Jackets", "Bodyswim", "Dresses"],
+    "contact":[
+        {
+            "icon":"fas fa-home me-3",
+            "text": "New York, NY 10012, US"
+        },
+        {
+            "icon":"fas fa-envelope me-3",
+            "text": "bambin@example.com"
+        },
+        {
+            "icon":"fas fa-phone me-3",
+            "text": " + 01 234 567 88"
+        },
+        {
+            "icon":"fas fa-print me-3",
+            "text": " + 01 910 111 23"
+        }
+    ],
+    "social":[
+        {
+            "href": "https://www.facebook.com/",
+            "icon": "fab fa-facebook-f"
+        },
+        {
+            "href": "https://twitter.com/",
+            "icon": "fab fa-twitter"
+        },
+        {
+            "href": "https://instagram.com/",
+            "icon": "fab fa-instagram"
+        }
+    ]
+}

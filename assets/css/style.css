@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: "Cabin", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --grey: #f7f7f9;
+    --lgreen: #89b382;
+    --dgreen: #555c50;
+    --superlight: #e4f5e1;
+    --yellow: #fabb46;
+}
+.bg-grey{
+    background-color: var(--grey);
+}
+.bg-yellow{
+    background-color: var(--yellow);
+}
+.bg-green{
+    background-color: var(--lgreen);
+}
+.dark-green{
+    color: var(--dgreen);
+}
+
+.yellow-text{
+    color: var(--yellow);
+}
+.logo, .logo:hover{
+    color: var(--lgreen);
+}
+nav{
+    background-color: var(--grey);
+}
+.height{
+    margin-top: 5rem;
+}
+.cart-icon-container {
+    position: relative;
+    display: inline-block;
+}
+.cart-item-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: var(--lgreen);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-benefits{
+    background-color: var(--dgreen);
+    padding: 0.1rem 0.8rem;
+}
+.block-benefits h5{
+    color: var(--yellow);
+}
+.block-benefits:nth-child(2){
+    margin: 0.5rem 0;
+}
+.button-style, #readMore:hover{
+    border: 1px solid var(--dgreen);
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: var(--dgreen);
+}
+.button-style:hover, .add-to-cart:hover, #readMore{
+    background-color: var(--lgreen);
+    border: none;
+    color: var(--grey);
+}
+.item{
+    border: none;
+}
+.item img:hover{
+    cursor: pointer;
+}
+.add-to-cart{
+    border: none;
+    width: 100%;
+    background-color: var(--superlight);
+}
+.new-in p{
+    background-color: var(--yellow);
+    padding: 0.5rem;
+    color: var(--grey);
+}
+#hiddenMainP{
+    display: none;
+}
+#readMore{
+    padding: 0.5rem;
+}
+.block-benefits-second p:first-child i{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+.block-benefits-second h5{
+    color: var(--dgreen);
+}
+input[type="range"] {   
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+#search{
+    border-color: white;
+}
+#filterItems form:first-child{
+    margin-bottom: 1rem;
+}
+input[type='checkbox'], #subscribe {
+    accent-color: var(--yellow);
+}
+select{
+    border:none;
+}
+.delete{
+    border: none;
+    background-color: white;
+}
+.btn.bg-green:hover{
+    background-color: var(--lgreen);
+
+}
+
+

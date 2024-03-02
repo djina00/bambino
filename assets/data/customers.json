@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Dane Wiles",
+        "comment": "The softest fabric and adorable designs - we're thrilled with how our baby looks in this clothing!",
+        "stars": 5,
+        "img":"dane.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Klara Zares",
+        "comment": "The quality is top-notch, and the designs are simply delightful. Couldn't be happier with our purchase!",
+        "stars": 5,
+        "img": "klara.jpg"
+    }
+]

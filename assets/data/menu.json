@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Home",
+        "href": "index.html"
+    },
+    {
+        "title": "Shop",
+        "href": "shop.html"
+    },
+    {
+        "title": "Author",
+        "href": "author.html"
+    }
+    
+]

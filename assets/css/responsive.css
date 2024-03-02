@@ -1,0 +1,13 @@
+@media screen and (max-width: 992px){
+    #benefits{
+        margin-top: 1rem;
+    }
+    .block-benefits:nth-child(2){
+        margin: 0 0.5rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .block-benefits:nth-child(2){
+        margin: 0.5rem 0;
+    }
+}

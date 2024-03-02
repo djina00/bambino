@@ -1,0 +1,160 @@
+[
+
+    {
+        "id": 1,
+        "src": "flower-body.webp",
+        "price":{
+            "new": 47.99
+        },
+        "description": "Spring rose bodysuit",
+        "category": 1,
+        "new": true,
+        "cotton": true,
+        "sizes":[2],
+        "stars": 4
+    },
+   
+    {
+        "id": 2,
+        "src": "white-body.webp",
+        "price":{
+            "old": 33.99,
+            "new": 29.99
+            
+        },
+        "description": "Beige ribbed bodysuit",
+        "category": 1,
+        "new": false,
+        "cotton": true,
+        "sizes":[3, 4],
+        "stars": 3
+    },
+    {
+        "id": 3,
+        "src": "bear-body.webp",
+        "price":{
+            "old": 33.99,
+            "new": 30.99
+            
+        },
+        "description": "Bear comfy bodysuit",
+        "category": 1,
+        "new": false,
+        "cotton": false,
+        "sizes":[1, 2, 3],
+        "stars": 5
+    },
+    {
+        "id": 4,
+        "src": "brown-body.webp",
+        "price":{
+            "old": 45.99,
+            "new": 37.99
+            
+        },
+        "description": "Soft caramel bodysuit",
+        "category": 1,
+        "new": false,
+        "cotton": true,
+        "sizes":[1],
+        "stars": 3
+    },
+    {
+        "id": 5,
+        "src": "purple-dress.webp",
+        "price":{
+            "new": 78.99
+            
+        },
+        "description": "Super flufy dress",
+        "category": 2,
+        "new": true,
+        "cotton": true,
+        "sizes":[3, 4],
+        "stars": 4
+    },
+    {
+        "id": 6,
+        "src": "green-body.webp",
+        "price":{
+            "new": 30.99
+        },
+        "description": "Beige ribbed bodysuit",
+        "category": 1,
+        "new": true,
+        "cotton": true,
+        "sizes":[2, 3, 4],
+        "stars": 3
+    },
+    {
+        "id": 7,
+        "src": "flower-dress.webp",
+        "price":{
+            "old": 100.99,
+            "new": 87.99
+            
+        },
+        "description": "Flower dress",
+        "category": 2,
+        "new": false,
+        "cotton": true,
+        "sizes":[2, 3, 4],
+        "stars": 4
+    },
+    {
+        "id": 8,
+        "src": "white-jacket.webp",
+        "price":{
+            "new": 120.99         
+        },
+        "description": "Brown tedy jacket",
+        "category": 3,
+        "new": true,
+        "cotton": true,
+        "sizes":[1],
+        "stars": 5
+    },
+    {
+        "id": 9,
+        "src": "white-bear-jacket.webp",
+        "price":{
+            "new": 115.99         
+        },
+        "description": "White tedy jacket",
+        "category": 3,
+        "new": true,
+        "cotton": false,
+        "sizes":[1, 2],
+        "stars": 4
+    },
+    {
+        "id": 10,
+        "src": "bear-jacket.webp",
+        "price":{
+            "new": 140.99         
+        },
+        "description": "Beige tedy jacket",
+        "category": 5,
+        "new": false,
+        "cotton": false,
+        "sizes":[2],
+        "stars": 5
+    },
+    {
+        "id": 11,
+        "src": "blue-body.webp",
+        "price":{
+            "old": 39.99,
+            "new": 27.99
+        },
+        "description": "Striped bow swimsuit",
+        "category": 1,
+        "new": false,
+        "cotton": true,
+        "sizes":[1, 2],
+        "stars": 5
+    }
+
+
+
+]
