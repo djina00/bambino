@@ -207,7 +207,9 @@ $(document).ready(function(){
         display+=`</div>
         </section>
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-          <p>© ${currentYear()} Copyright: <span class="fw-bold">Bambino</span></p>
+        <p class="mb-0"><a href="documentation.pdf" class="text-dark">Documentation</a></p>
+        <p>© ${currentYear()} Copyright: <span class="fw-bold">Bambino</span></p>
+          
           
         </div>`;
         $('footer').html(display);
@@ -846,7 +848,9 @@ $(document).ready(function(){
                 $('#orderButton').next().removeClass('d-none');
               let toastLive = $('#orderToast');
                 let toast = new bootstrap.Toast(toastLive);
-                toast.show();              
+                toast.show();    
+                localStorage.removeItem('cart');  
+                      
             }
             else {
                 $('#orderButton').next().addClass('d-none');
