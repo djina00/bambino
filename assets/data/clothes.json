@@ -152,7 +152,49 @@
         "cotton": true,
         "sizes":[1, 2],
         "stars": 5
+    },
+    {
+        "id": 12,
+        "src": "pink-bodysuit.jpg",
+        "price":{
+            "new": 56.99
+        },
+        "description": "Pink rose bodysuit",
+        "category": 1,
+        "new": true,
+        "cotton": true,
+        "sizes":[2],
+        "stars": 3
+    },
+    {
+        "id": 13,
+        "src": "boy-bodysuit.webp",
+        "price":{
+            "old": 63.99,
+            "new": 51.99
+            
+        },
+        "description": "Blue boy bodysuit",
+        "category": 1,
+        "new": false,
+        "cotton": true,
+        "sizes":[2, 3, 4],
+        "stars": 4
+    },
+    {
+        "id": 14,
+        "src": "mashrooms-bodysuit.webp",
+        "price":{
+            "new": 37.99
+        },
+        "description": "Beige mashrooms bodysuit",
+        "category": 1,
+        "new": true,
+        "cotton": true,
+        "sizes":[2, 3, 4],
+        "stars": 3
     }
+   
 
 
 

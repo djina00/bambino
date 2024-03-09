@@ -1,5 +1,7 @@
 $(document).ready(function(){
     const srcPath = 'assets/img/';
+    let url = window.location.pathname;
+
   
     asynFunctionCallsGlobal();
     let CLOTHES;
@@ -76,11 +78,24 @@ $(document).ready(function(){
         display+='</ul>';
         $(element).html(display);
     }
+    const PERPAGE = 6;
     function displayProducts(product, element){
         let display='';
+        let shop = url.includes('shop.html') ? true : false;
+        console.log(shop);
+        let page = 1;
+        let quota = 0;
+        
         product.forEach(x=>{
+          if(shop){
+            if(quota==PERPAGE){
+              page++;
+              quota = 0;
+            }
+          }
+           
             let id= x.src.substring(0,x.src.indexOf('.'));
-            display+= `<div class="card item position-relative" style="width: 18rem;"><div data-bs-toggle="modal" data-bs-target="#${id}">
+            display+= `<div class="card item position-relative ${shop ? "product-" + page : ""} product" style="width: 18rem;"><div data-bs-toggle="modal" data-bs-target="#${id}">
             ${isNewIn(x)}
             <img src="${srcPath}${x.src}" alt="${id}" class="card-img-top" alt="${x.description}">          
           </div>
@@ -118,9 +133,22 @@ $(document).ready(function(){
               </div>
             </div>
           </div>`
+          
+
+          quota++;
         });
+        if(shop){
+          display +="<div id='pagination'></div>"
+        }
+
+        
         //console.log(display);
         $(element).html(display);
+        if(shop){
+          pagination(product.length);
+          showProducts(1);
+        }
+        
 
     }
     function isNewIn(product){
@@ -337,7 +365,6 @@ $(document).ready(function(){
     
   }
 //Index.html
-    let url = window.location.pathname;
     if (url == "/bambino/" || url.includes("index.html")){
     // if (url === '/sajt/' || url.includes('index.html')){
       asynFunctionCallIndex();
@@ -436,6 +463,32 @@ $(document).ready(function(){
     // shop.html
     if(url.includes('shop.html')){
       asynFunctionCallShop();
+
+      $(document).on('click', '.page-item', function(e){
+        console.log(this);
+        let pageNumber = this.innerHTML;
+        showProducts(pageNumber);
+    })
+
+      function showProducts(page){
+        $('.product').hide();
+         $(`.product-${page}`).show();
+      }
+      function pagination(productsNumber){
+        let pages = Math.ceil(productsNumber/PERPAGE)
+        let displayPagination = `<nav aria-label="Page navigation example" class="p-1">
+                                <ul class="pagination mb-0">`;
+    
+        for(let i = 1; i <= pages; i++){
+            displayPagination += `<li class="page-item px-2 border">${i}</li>`
+        }
+    
+        displayPagination += `</ul></nav>`
+    
+        $('#pagination').html(displayPagination)
+
+      }
+
       function displayFilterItems(title, object){
                 let container = document.createElement('form');
                 container.innerHTML = `<h5>${title}</h5>`;
